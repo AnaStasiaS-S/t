@@ -1,4 +1,0 @@
-policy_kwargs = dict(net_arch=dict(vf=[64, 16, pi=[64, 16]))  --- it is the same like policy_kwargs = dict(net_arch=[64, 16])
-agent = A2C("MlpPolicy", self, verbose=1, policy_kwargs=policy_kwargs)
-
-FAILED
