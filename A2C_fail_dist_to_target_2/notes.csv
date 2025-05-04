@@ -1,0 +1,4 @@
+policy_kwargs = dict(activation_fn=th.nn.ReLU, net_arch=dict(vf=[64, 32, 16], pi=[64, 16]))
+agent = A2C("MlpPolicy", self, verbose=1, policy_kwargs=policy_kwargs, learning_rate=0.001)
+
+FAILED
